@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* My Code */
+
+html {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left -50% top 500%, right -50% bottom 600%;
+	background-color: hsl(185, 75%, 39%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container {
+	background-color: white;
+	max-width: 320px;
+	border-radius: 15px;
+	text-align: center;
+}
+img {
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+}
+h1 {
+	font-size: 1.1rem;
+	font-weight: 700;
+	color: hsl(229, 23%, 23%);
+}
+.info > h1 {
+	padding: 4rem 0 1rem;
+}
+.info > p {
+	padding-bottom: 1.5rem;
+	border-bottom: 1px solid hsla(0, 0%, 59%, 0.3);
+	font-weight: 400;
+	font-size: 0.85rem;
+	color: hsl(227, 10%, 46%);
+}
+span {
+	font-weight: 400;
+	padding-left: 0.5rem;
+	color: hsl(227, 10%, 46%);
+}
+.numbers {
+	padding: 1.5rem 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+.numbers-1> p {
+	font-weight: 400;
+	font-size: 0.75rem;
+	padding-top: 0.5rem;
+	color: hsl(227, 10%, 46%);
+}
+.numbers-2> p {
+	font-weight: 400;
+	font-size: 0.75rem;
+	padding-top: 0.5rem;
+	color: hsl(227, 10%, 46%);
+}
+.numbers-3> p {
+	font-weight: 400;
+	font-size: 0.75rem;
+	padding-top: 0.5rem;
+	color: hsl(227, 10%, 46%);
+}
